@@ -828,11 +828,15 @@ a:hover {
 }
 
 .header-after {
-    left:469px;
+  left:469px;
 }
 
 .pubs-list, .bio-col {
   width: 49%;
+}
+
+.button-click {
+  display: none;
 }
 
 .detail-p {
@@ -912,6 +916,7 @@ h3 {
 
 .text-node {
   width: 98%;
+  text-align: center !important;
 }
 
 .medibank-txt, .nissan-txt, .anz-txt, .cf-txt {
