@@ -874,7 +874,7 @@ p {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-device-width : 320px) and (max-device-width : 480px) {
 
 .nav-text {
   font-size: 22px;
@@ -910,12 +910,8 @@ h3 {
     left:50%;
 }
 
-.img-node {
-  width: 49%;
-}
-
 .text-node {
-  width: 49%;
+  width: 98%;
 }
 
 .medibank-txt, .nissan-txt, .anz-txt, .cf-txt {
@@ -940,7 +936,7 @@ h3 {
   margin-bottom: -40px;
 }
 
-.bio-hide, .button-click, .bio-col, .cont-header, .detail-node, .detail-node-bottom, p, .nav {
+.bio-hide, .button-click, .bio-col, .cont-header, .detail-node, .detail-node-bottom, p, .nav, hr, .img-node {
   display: none;
 }
 
