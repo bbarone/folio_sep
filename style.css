@@ -941,7 +941,7 @@ h3 {
   margin-bottom: -40px;
 }
 
-.bio-hide, .button-click, .bio-col, .cont-header, .detail-node, .detail-node-bottom, p, .nav, hr, .img-node {
+.bio-hide, .button-click, .bio-col, .cont-header, .detail-node, .detail-node-bottom, p, .nav, hr, .img-node, .text-line {
   display: none;
 }
 
