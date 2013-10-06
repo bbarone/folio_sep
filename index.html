@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben Barone-Nugent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Stylez -->
+    <link href="style.css" rel="stylesheet" media="screen">
+
+    <!-- Fonties -->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic|Vollkorn:400italic,400|PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- JQ -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <!-- Anim8 -->
+    <link href="animate.css" rel="stylesheet" media="screen">
+  
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.nav').addClass("slideDown");
+    });
+
+  </script>
+
+    <script>
+      $(window).scroll(function() {
+        $('.folio-fade').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow+600) {
+            $(this).addClass("fadeIntop");
+          }
+        });
+      });
+    </script>
+
+    <script>
+
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+            if (scroll >= 550) {
+              $(".navbg").addClass("navadd");
+          }
+      });
+
+    </script>
+
+    <script>
+
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+            if (scroll <= 549) {
+              $(".navbg").removeClass("navadd");
+          }
+      });
+
+    </script>
+
+    <script>
+
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+            if (scroll >= 10) {
+              $(".header-after").removeClass("pullDown").addClass("fadeOut");
+          }
+      });
+
+    </script>
+
+    <script>
+
+      $(window).scroll(function() {    
+          var scroll = $(window).scrollTop();
+            if (scroll <= 10) {
+              $(".header-after").removeClass("fadeOut").addClass("pullDown");
+          }
+      });
+
+    </script>
+
+    <!-- Name Anim6 -->
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.heading').addClass("fadeIn");
+    });
+
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.sub').addClass("fadeInFast");
+    });
+
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.slide-right').addClass("slideRight");
+    });
+
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.slide-left').addClass("slideLeft");
+    });
+
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('#social').addClass("pullUp");
+    });
+
+  </script>
+
+  <script type="text/javascript" charset="utf-8">
+
+    $(document).ready(function() {
+        $('.header-after').addClass("pullDown");
+    });
+
+  </script>
+
+  <!-- AAMI Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.aami-button').click(function() {
+            $('.aami-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.aami-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-aami').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-aami').click(function() {
+            $('.detail-aami').removeClass("fadeInFast").addClass("fadeOut");
+            $('.aami-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.aami-img').removeClass("slideRightOut").addClass("slideRightin");
+        });
+    });
+
+  </script>
+
+  <!-- Medibank Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.medibank-button').click(function() {
+            $('.medibank-img').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.medibank-txt').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-medibank').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-medibank').click(function() {
+            $('.medibank-img').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.medibank-txt').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-medibank').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- Bunnings Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.bunnings-button').click(function() {
+            $('.bunnings-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.bunnings-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-bunnings').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-bunnings').click(function() {
+            $('.bunnings-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.bunnings-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-bunnings').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- Nissan Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.nissan-button').click(function() {
+            $('.nissan-img').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.nissan-txt').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-nissan').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-nissan').click(function() {
+            $('.nissan-img').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.nissan-txt').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-nissan').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- BoM Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.bom-button').click(function() {
+            $('.bom-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.bom-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-bom').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-bom').click(function() {
+            $('.bom-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.bom-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-bom').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- ANZ Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.anz-button').click(function() {
+            $('.anz-img').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.anz-txt').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-anz').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-anz').click(function() {
+            $('.anz-img').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.anz-txt').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-anz').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- UTS Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.uts-button').click(function() {
+            $('.uts-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.uts-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-uts').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-uts').click(function() {
+            $('.uts-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.uts-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-uts').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- CF Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.cf-button').click(function() {
+            $('.cf-img').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.cf-txt').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-cf').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-cf').click(function() {
+            $('.cf-img').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.cf-txt').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-cf').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  <!-- Hooroo Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.hooroo-button').click(function() {
+            $('.hooroo-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.hooroo-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-hooroo').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-hooroo').click(function() {
+            $('.hooroo-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.hooroo-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-hooroo').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+  </head>
+
+  <body>
+
+    <div class="nav">
+      <div class="navbg">
+      <ul>
+        <li class="nav-text nav-i"><a href="default.asp">home</a></li>
+        <li class="nav-text nav-i"><a href="news.asp">work</a></li>
+        <li class="nav-text nav-i"><a href="contact.asp">publications</a></li>
+        <li class="nav-text"><a href="about.asp">contact</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="header container">
+
+          <h1 class="heading">Ben Barone-Nugent</h1>
+
+          <h2 class="sub"><hr class="text-line slide-right" />Content strategist, copywriter, creative<hr class="text-line slide-left" /></h2>
+
+
+          <div id="social">
+            <a href="http://twitter.com/benbn"><img src="twitter-ic.png" class="ic" id="twitter" /></a>
+            <a href="http://linkedin.com/benbn"><img src="linkedin-ic.png" class="ic" id="linkedin" /></a>
+            <a href="mailto:ben.baronenugent@gmail.com"><img src="email-ic.png" class="ic" id="email" /></a>
+          </div>
+          <div class="header-after"></div>
+    </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="img-node">
+
+        <div id="toppy-i"><img src="AAMI.jpg" class="img-responsive folio-fade aami-img"></div>
+
+      </div>
+
+      <div class="text-node folio-fade aami-txt">
+
+        <h3>AAMI Insurance</h3>
+
+        <h4>lead content strategist, senior writer</h4>
+
+        <p>AAMI is a big-ass Australian insurer. I built them a whole new vision for their content and online experience.</p>
+
+        <div class="button-click aami-button">read more</div>
+
+      </div>
+
+      <div class="detail-node detail-aami">
+
+        <h3 class="detail-h">AAMI Insurance</h3>
+
+        <h4 class="detail-sh">content audit, content strategy, copywriting, ux design</h4>
+
+        <a href="http://www.aami.com.au/" target="_blank"><h5 class="detail-a">http://www.aami.com.au/</h5></a>
+
+        <p class="detail-p">AAMI was starting to show its age. The same words had been on the site since it launched almost 10 years ago. Crazy, huh? My job was to audit the site and determine what was working and what users needed. From there, I could completely re-engineer the structure of the site and <i>all</i> of its content. I led a small team of designers, producers and UX specialists to deliver a brand new, vastly improved site. Our product managed to better retain users, improve sales leads and help reduce the number of calls to AAMI's manned support centre.</p>
+
+        <div class="button-click-detail go-away-aami">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="text-node folio-fade medibank-txt">
+
+        <h3>Medibank Videos & Social</h3>
+
+        <h4>creative, ux researcher</h4>
+
+        <p>We noticed that a lot of Australians are Googling a diagnosis instead of seeing a real doctor. All this while Medibank offers a free nurse-on-call service. We decided to tell people about this.</p>
+
+        <div class="button-click medibank-button b-right">see more</div>
+
+      </div>
+
+      <div class="img-node medibank-img">
+
+        <img src="Medibank.jpg" class="img-responsive folio-fade">
+
+      </div>
+
+      <div class="detail-node detail-medibank">
+
+        <h3 class="detail-h">Medibank Videos & Social</h3>
+
+        <h4 class="detail-sh">creative, content strategy, copywriting, ux design</h4>
+
+        <a href="http://www.talktoanexpert.com.au/" target="_blank"><h5 class="detail-a">http://www.talktoanexpert.com.au/</h5></a>
+
+        <p class="detail-p">Australians are addicted to 'symptom surfing'. They'd rather visit Dr Google than a real GP. Medibank, the country's biggest health insurer, decided it's time to take a stand. I helped out by creating a Facebook app, a web film and a bunch of other stuff to show people that there is a better way. It was a huge success. The video hit 10,000 views in just a few days, and countless more used the app. Interest in Medibank's nurse-on-call service also increased, which was one of the key campaign goals.</p>
+
+        <div class="button-click-detail go-away-medibank">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="img-node">
+
+        <img src="Bunnings.jpg" class="img-responsive folio-fade bunnings-img">
+
+      </div>
+
+      <div class="text-node folio-fade bunnings-txt">
+
+        <h3>Bunnings</h3>
+
+        <h4>content strategist</h4>
+
+        <p>Bunnings needed a more intuitive website that made it easier for customers to navigate their 200k+ products. Part of that was auditing, architecting, migrating and designing mountains of content. That's what I did.</p>
+
+        <div class="button-click bunnings-button">see more</div>
+
+      </div>
+
+      <div class="detail-node detail-bunnings">
+
+        <h3 class="detail-h">Bunnings Website</h3>
+
+        <h4 class="detail-sh">content strategy, content audit</h4>
+
+        <a href="http://www.bunnings.com.au/" target="_blank"><h5 class="detail-a">http://www.bunnings.com.au/</h5></a>
+
+        <p class="detail-p">Bunnings is Australia's most trusted brand. Sadly, their website was old, creaky and confusing. Our job was to completely rebuild it. I started by auditing its 300,000 pages, including 250,000 products. It took a while, but doing so allowed me to define a new content vision and deliver a humungous tactical content strategy. The result is a beautiful, modern website packed with useful and interesting content. See for yourself!</p>
+
+        <div class="button-click-detail go-away-bunnings">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="text-node folio-fade nissan-txt">
+
+        <h3>Nissan Video Game</h3>
+
+        <h4>creative, ux lead</h4>
+
+        <p>The Nissan Pulsar is back. So we made a video game to show it off. It involved playing countless hours of Metal Slug (for research). It was good fun.</p>
+
+        <div class="button-click nissan-button b-right">see more</div>
+
+      </div>
+
+      <div class="img-node">
+
+        <img src="Nissan.jpg" class="img-responsive folio-fade nissan-img">
+
+      </div>
+
+      <div class="detail-node detail-nissan">
+
+        <h3 class="detail-h">Nissan Pulse Jam</h3>
+
+        <h4 class="detail-sh">an online video game</h4>
+
+        <a href="http://bannerblog.com.au/2013/07/nissan_pulse_jam.php" target="_blank"><h5 class="detail-a">Play Pulse Jam</h5></a>
+
+        <p class="detail-p">Nissan was releasing a long-awaited update to the ubiquitous Pulsar. To celebrate (and promote) this, they wanted us to make the most of big, rich banner placement on YouTube. Our idea was to build an in-banner video game that shows off Pulsar's retor heritage and its newfound excitement.</p>
+
+        <div class="button-click-detail go-away-nissan">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="img-node">
+
+        <img src="BoM.jpg" class="img-responsive folio-fade bom-img">
+
+      </div>
+
+      <div class="text-node folio-fade bom-txt">
+
+        <h3>Bank of Melbourne</h3>
+
+        <h4>content strategist, lead copywriter, service design</h4>
+
+        <p>Bank of Melbourne was a totally new bank. You know who built them an awesome multi-channel content strategy <i>and</i> wrote all the copy for their new site <i>and</i> created a bunch of new banking apps? That's right.</p>
+
+        <div class="button-click bom-button">see more</div>
+
+      </div>
+
+      <div class="detail-node detail-bom">
+
+        <h3 class="detail-h">Bank of Melbourne</h3>
+
+        <h4 class="detail-sh">content strategy, mobiles apps, in-store interactives, a new brand</h4>
+
+        <a href="http://www.bankofmelbourne.com.au/" target="_blank"><h5 class="detail-a">http://www.bankofmelbourne.com.au/</h5></a>
+
+        <p class="detail-p">This was a massive project. Over the course of nine months, we developed a new brand, wrote a whole new website from scratch and created a heap of new apps. I also developed a suite of content strategies to structure their social presence, website experience and a whole lotta other stuff. I also worked on an in-store digital service that helped customers help themselves via large, high-res screens placed in flagship branches.</p>
+
+        <div class="button-click-detail go-away-bom">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="text-node folio-fade anz-txt">
+
+        <h3>ANZ Bank</h3>
+
+        <h4>lead content strategist, lead writer</h4>
+
+        <p>ANZ is Australia's third largest bank. It is also one of TBWA's biggest local clients. I was brought in to help lead the digital part of the account. I worked with ANZ and their other digital partners to build a stronger digital presence.</p>
+
+        <div class="button-click anz-button b-right">see more</div>
+
+      </div>
+
+      <div class="img-node">
+
+        <img src="ANZ.jpg" class="img-responsive folio-fade anz-img">
+
+      </div>
+
+      <div class="detail-node detail-anz">
+
+        <h3 class="detail-h">ANZ Bank</h3>
+
+        <h4 class="detail-sh">content strategies, content audits, apps, content</h4>
+
+        <a href="http://www.anz.com.au/" target="_blank"><h5 class="detail-a">http://www.anz.com.au/</h5></a>
+
+        <p class="detail-p">Over the course of a year, I built countless content strategies, apps and wrote hundreds of thousands of carefully optimised words. ANZ were undergoing a huge shift in both brand positioning and digital focus. My role was to help TBWA cement itself as a strong digital thinker and help ANZ internally build out their content strategy and writing capabilities. This required working as a digital consultant with the bank's other digital providers, including Deloitte Digital and Reactive Media.</p>
+
+        <div class="button-click-detail go-away-anz">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="img-node">
+
+        <img src="UTS.jpg" class="img-responsive folio-fade uts-img">
+
+      </div>
+
+      <div class="text-node folio-fade uts-txt">
+
+        <h3>University of Technology Sydney</h3>
+
+        <h4>content strategist</h4>
+
+        <p>UTS came to us for a complete redesign of their website. This required a completely new vision for their content, and a plan to migrate their 300,000+ old pages across to the new platform. A big job.</p>
+
+        <div class="button-click uts-button">see more</div>
+
+      </div>
+
+      <div class="detail-node detail-uts">
+
+        <h3 class="detail-h">UTS Content Strategy</h3>
+
+        <h4 class="detail-sh">content strategy, content audit</h4>
+
+        <a href="http://www.uts.edu.au/" target="_blank"><h5 class="detail-a">http://www.uts.edu.au/</h5></a>
+
+        <p class="detail-p">UTS is one of the biggest universities in the country. They also had one of Australia's biggest websites, with well over 300,000 unique pages. As part of their digital redesign, I needed to work out how to structure their content in a new and intuitive way. It was complex. It required a comprehensive retirement plan (you know, which pages can be put to pasture) and an even more complex migration process. Both of these things needed to account for the internal politics and structures of UTS.</p>
+
+        <div class="button-click-detail go-away-uts">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="text-node folio-fade cf-txt">
+
+        <h3>ClickFork</h3>
+
+        <h4>content strategist, lead copywriter</h4>
+
+        <p>ClickFork is a little startup that aims to bring awesome websites to restaurants. The founders approached me to make them good words, optimise their UX and create a to-market strategy. Oh, and content. Lots of content.</p>
+
+        <div class="button-click cf-button b-right">see more</div>
+
+      </div>
+
+      <div class="img-node">
+
+        <img src="CF.jpg" class="img-responsive folio-fade cf-img">
+
+      </div>
+
+      <div class="detail-node detail-cf">
+
+        <h3 class="detail-h">ClickFork</h3>
+
+        <h4 class="detail-sh">words, content strategies</h4>
+
+        <a href="http://www.clickfork.com.au/" target="_blank"><h5 class="detail-a">http://www.clickfork.com.au/</h5></a>
+
+        <p class="detail-p">I wrote every word that ClickFork uses. I also helped create their gorgeous website. And I continue to work with them on making their business better and stronger. It was a huge learning experience, too. Typically, I work with bigger, more cumbersone clients. ClickFork are thin on the personnel, but chubby with ideas. This means I can experiment with crazier UI ideas and more dynamic, interesting content.</p>
+
+        <div class="button-click-detail go-away-cf">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row botty">
+
+      <div class="img-node">
+
+        <img src="AusGov.jpg" class="img-responsive folio-fade hooroo-img">
+
+      </div>
+
+      <div class="text-node folio-fade hooroo-txt">
+
+        <h3>Australian Government</h3>
+
+        <a href="http://www.digitalbusiness.gov.au/" target="_blank"><h5 class="detail-a">http://www.digitalbusiness.gov.au/</h5></a>
+
+        <p>The Australian Government wanted to help small businesses make the most of the internet. My job was to build mountains of useful and easily understood content.</p>
+
+        <div class="button-click hooroo-button">see less</div>
+
+      </div>
+
+      <div class="detail-node-bottom detail-hooroo">
+
+        <h3 class="detail-h">Aus Govt Digital Business Hub</h3>
+
+        <h4 class="detail-sh">lots of words, a big content strategy</h4>
+
+        <a href="http://www.digitalbusiness.gov.au/" target="_blank"><h5 class="detail-a">http://www.digitalbusiness.gov.au/</h5></a>
+
+        <p class="detail-p">A lot of mom and pop businesses know they need a web presence to compete. But the problem is that they simply don't know where to star. The Australian Government decided it was time to build a comprehensive and easy-to-use resource designed to help people get online. To achieve this, we architected a huge digital business hub that covers everything from building a basic website to running advertising and ecommerce.</p>
+
+        <div class="button-click-detail go-away-hooroo">see less</div>
+
+      </div>
+
+    </div>
+
+    <div class="row-sh header-two folio-fade">
+
+    <div class="row-bot-top">
+
+      <div class="cont-header" id="contact">Nuts & bolts</div>
+      <h2 class="sub bio-hide"><hr class="text-line slide-right" />The important stuff<hr class="text-line slide-left" /></h2><br />
+
+    <div class="bio-col">
+
+      <div class="weight-h">A lil bit bout me</div>
+
+      <div class="bio-fact">Content Strategy Lead at <b>Proximity BBDO</b>.</div>
+
+      <div class="bio-fact">Living in <b>Melbourne, AU</b>.</div>
+      
+      <div class="bio-fact">Favourite author is <b>Douglas Coupland</b>.</div>
+
+      <div class="bio-item">I love using content to solve complex business and UX problems. I've previously worked for TBWA/DAN and DTDigital on clients as diverse as McCain, Qantas, AmEx and Honda. I also work with <a href="http://www.clickfork.com/" target="_blank">ClickFork,</a> a startup that brings great online experiences to the restaurant industry.</div>
+
+    </div>
+
+    <div class="pubs-list">
+
+      <div class="weight-h">Publications</div>
+
+      <div class="pub">
+        <div class="pubs-item"><a href="http://uxmag.com/articles/three-lessons-learned-doing-content-strategy-for-a-startup" target="_blank">3 Lessons Learned Doing Content Strategy for a Startup</a> <br /><span class="pubs-cite"><b>UX Magazine</b>, September 2013</span></div>
+      </div>
+
+      <div class="pub">
+        <div class="pubs-item"><a href="http://www.theguardian.com/media-network/media-network-blog/2013/aug/19/ad-agency-needs-content-strategists" target="_blank">Your ad agency needs content strategists</a> <br /><span class="pubs-cite"><b>The Guardian</b>, August 2013</span></div>
+      </div>
+
+      <div class="pub">
+        <div class="pubs-item"><a href="http://www.theguardian.com/media-network/media-network-blog/2013/mar/14/content-marketing-customer-experience" target="_blank">Customers remember experiences, not content</a> <br /><span class="pubs-cite"><b>The Guardian</b>, March 2013</span></div>
+      </div>
+
+      <div class="pub">
+        <div class="pubs-item"><a href="https://medium.com/digital-advertising/e23a73768341" target="_blank">Defining content strategy</a> <br /><span class="pubs-cite"><b>Medium</b>, June 2013</span></div>
+      </div>
+
+      <div class="pub">
+        <div class="pubs-item"><a href="http://connection.ebscohost.com/c/articles/87412505/kill-your-content-strategist" target="_blank">Kill Your Content Strategist</a> <br /><span class="pubs-cite"><b>B&T</b>, April 2013</span></div>
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="row-bot last">
+
+      <div class="cont-header" id="contact">Let's talk, yo</div>
+      <h2 class="sub bio-hide"><hr class="text-line slide-right" />I'm happy to chat about anything<hr class="text-line slide-left" /></h2>
+      
+      <div id="social">
+
+        <a href="http://twitter.com/benbn"><img src="twitter-ic.png" class="ic" id="twitter" /></a>
+        <a href="http://linkedin.com/benbn"><img src="linkedin-ic.png" class="ic" id="linkedin" /></a>
+        <a href="mailto:ben.baronenugent@gmail.com"><img src="email-ic.png" class="ic" id="email" /></a>
+
+      </div>
+
+    </div>
+
+    <div class="dead-last bio-hide">Thanks</div>
+
+    </div>
+
+    </div>
+
+  </body>
+</html>
