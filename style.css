@@ -887,7 +887,7 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h2 {
@@ -900,10 +900,6 @@ h3 {
 
 .container, .navbg, .detail-node, .detail-node-bottom {
   width: 100%;
-}
-
-.nav {
-  position: absolute;
 }
 
 .header:after {
@@ -922,39 +918,20 @@ h3 {
   width: 49%;
 }
 
-.detail-p {
-  -moz-column-count:1;
-  -webkit-column-count:1;
-  column-count:1;
-  margin-bottom: 15px;
-  margin-top: 0;
-  padding-top: 0;
-  text-align: center;
-}
-
-.detail-node, .detail-node-bottom {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .medibank-txt, .nissan-txt, .anz-txt, .cf-txt {
   text-align: right;
 }
 
-img {
+.img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-
-p {
-  display: none;
-}
-
 .row {
   padding-top: 30px;
   padding-bottom: 30px;
+  height:;
 }
 
 .dead-last {
@@ -963,7 +940,7 @@ p {
   margin-bottom: -40px;
 }
 
-.bio-hide, .button-click, .bio-col, .cont-header {
+.bio-hide, .button-click, .bio-col, .cont-header, .detail-node, .detail-node-bottom, p, .nav {
   display: none;
 }
 
