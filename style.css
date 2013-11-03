@@ -753,4 +753,9 @@ h2 {
     padding-bottom: 50px;
 }
 
+.detail-node {
+  display: none;
+  width: 100%;
+}
+
 }
