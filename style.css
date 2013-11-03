@@ -749,7 +749,8 @@ h2 {
 
 .header {
     padding-top: 50px;
-    height: 400px;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 }
