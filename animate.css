@@ -354,8 +354,8 @@ fadeInFast
 	animation-name: fadeInFast;
 	-webkit-animation-name: fadeInFast;	
 
-	animation-duration: .5s;	
-	-webkit-animation-duration: .5s;
+	animation-duration: .7s;	
+	-webkit-animation-duration: .7s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
@@ -1618,17 +1618,11 @@ TypeIn
 	animation-name: fadeInSeven;
 	-webkit-animation-name: fadeInSeven;	
 
-	animation-duration: .5s;	
-	-webkit-animation-duration: .5s;
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;	
-
-	animation-delay:3s;
-	-webkit-animation-delay:3s;
-
-	transition-delay: 3s;
-	-webkit-transition-delay: 3s;
 
 	visibility: visible !important;	
 }
@@ -1665,11 +1659,11 @@ TypeIn
 	-ms-transform-origin: 50% 100%;
 	-webkit-transform-origin: 50% 100%;
 
-	animation-delay:3.5s;
-	-webkit-animation-delay:3.5s;
+	animation-delay:3s;
+	-webkit-animation-delay:3s;
 
-	transition-delay: 3.5s;
-	-webkit-transition-delay: 3.5s;	
+	transition-delay: 3s;
+	-webkit-transition-delay: 3s;	
 
 	visibility: visible !important;	
 
