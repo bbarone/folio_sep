@@ -12,8 +12,8 @@
 
 .header {
   	position: relative;
-  	padding-top: 150px;
-  	height: 550px;
+  	padding-top: 90px;
+  	height: 400px;
   	text-align: left;
   	width: 100%;
     background-color: #2e2e2e;
@@ -131,6 +131,7 @@ p {
 p a {
   color: #3A71A6;
   text-decoration: none;
+  font-weight: 700;
 }
 
 p a:hover {
@@ -478,8 +479,8 @@ a:hover {
     background: url('graphy.png');
     background-repeat:repeat;
     width: 100%;
-    padding-top: 100px;
-    height: 330px;
+    padding-top: 60px;
+    height: 230px;
     margin: 0 auto;
     position: relative;
     border-bottom: 2px solid #cbcbcb
@@ -489,8 +490,8 @@ a:hover {
     background: url('graphy.png');
     background-repeat:repeat;
     width: 100%;
-    padding-top: 100px;
-    height: 330px;
+    padding-top: 60px;
+    height: 250px;
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
@@ -601,6 +602,21 @@ p {
 .detail-node {
   display: none;
   width: 100%;
+}
+
+#linkedin {
+  height: 35px;
+  margin-right: 10px;
+}
+
+#twitter {
+  height: 36px;
+  margin-bottom: 1px;
+}
+
+#email {
+  height: 34px;
+  margin-top: 5px;
 }
 
 }
