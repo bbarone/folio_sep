@@ -13,7 +13,7 @@
 .header {
   	position: relative;
   	padding-top: 90px;
-  	height: 480px;
+  	height: 420px;
   	text-align: left;
   	width: 100%;
     background-color: #2e2e2e;
@@ -63,7 +63,7 @@ h1 {
 
 h2 {
 	font-family: 'PT Sans', Arial, sans-serif;
-	font-size: 55px;
+	font-size: 50px;
 	font-weight: 700;
 	color: #ffffff;
   -webkit-font-smoothing: antialiased;
