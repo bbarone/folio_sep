@@ -232,6 +232,12 @@ p a:hover {
   margin-bottom: 16px;
 }
 
+.para {
+  content: " ";
+  display: block;
+  margin: 6px;
+}
+
 img {
   display: block;
   max-width: 100%;
