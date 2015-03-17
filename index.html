@@ -131,6 +131,91 @@
 
       <div class="img-node">
 
+        <img src="SSGO.jpg" class="img-responsive folio-fade ssgo-img">
+
+      </div>
+
+      <div class="text-node folio-fade ssgo-txt">
+
+        <h3>Samsung Global</h3>
+
+        <h4>content strategy director @ r/ga new york</h4>
+
+        <p>I developed Samsung's first global content strategy and implemented it across the world.</p>
+
+        <div class="button-click ssgo-button b-right">huge</div>
+
+      </div>
+
+      <div class="detail-node detail-ssgo">
+
+        <div class="detail-left">
+
+          <h3 class="detail-h">Overview</h3>
+
+          <p>Samsung had some big problems: poor efficiency, lack of communication, and hotchpotch content.<br class="para" /> To remedy this, I came up with their first ever global content strategy. The 120-page document defines everything from how to create content to how it can be used to solve business and marketing problems.</p>
+
+        </div>
+
+        <div class="detail-right">
+
+          <h3 class="detail-h">My role</h3>
+
+          <p>Since joining R/GA, I've directed content strategy across the Samsung account. This involves more than just delivering strategy: I fight for new business, work closely with the client, and manage a small team.</p>
+
+        <div class="button-click-detail go-away-ssgo">less</div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+   <div class="row"><div class="img-node">
+
+        <img src="Wink.jpg" class="img-responsive folio-fade wink-img">
+
+      </div>
+
+      <div class="text-node folio-fade wink-txt">
+
+        <h3>Wink (Quirky & GE)</h3>
+
+        <h4>copy director, content strategist @ r/ga new york</h4>
+
+        <p>We redeveloped Wink's entire ecommerce experience in time for the Christmas rush.</p>
+
+        <div class="button-click wink-button b-right">nice</div>
+
+      </div>
+
+      <div class="detail-node detail-wink">
+
+        <div class="detail-left">
+
+          <h3 class="detail-h">Overview</h3>
+
+          <p>Along with a tight squadron of designers, developers and experience strategists, I helped completely redesign the ecommerce experience of this pioneering smarthome brand.<br class="para" /> This included overseeing copywriting for hundreds of products and defining a whole new content strategy.</p>
+
+        </div>
+
+        <div class="detail-right">
+
+          <h3 class="detail-h">My role</h3>
+
+          <p>I directed the work of a junior writer and worked with other senior members of the team to implement a new, platform-wide content strategy.</p>
+
+        <div class="button-click-detail go-away-wink">less</div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+
+   <div class="row"><div class="img-node">
+
         <img src="Mazda.jpg" class="img-responsive folio-fade mazda-img">
 
       </div>
@@ -153,7 +238,7 @@
 
           <h3 class="detail-h">Overview</h3>
 
-          <p>Mazda was rolling out a new website platform worldwide. I'm working on a multi-device content strategy to govern how content is created and maintained across this new platform. I'm also defining the local experience for the Australian website. <i>Website launching Feb 2014</i>.</p>
+          <p>Mazda was rolling out a new website platform worldwide. I created a multi-device content strategy to govern how content is created and maintained across this new platform. I also defined the local experience for the Australian website.</p>
 
         </div>
 
@@ -161,7 +246,7 @@
 
           <h3 class="detail-h">My role</h3>
 
-          <p>I'm content, copy and strategy lead. I manage a small team of writers, strategists, SEO specialists and UXers across the entire Mazda digital account.</p>
+          <p>I was content, copy and strategy lead. I managed a small team of writers, strategists, SEO specialists and UXers across the entire Mazda digital account.</p>
 
         <div class="button-click-detail go-away-mazda">less</div>
 
@@ -296,50 +381,6 @@
           <p>I worked closely with the client and our development team to create a CMS that makes it easy for Hooroo to offer dynamic information about hotels and holiday destinations.</p>
 
           <div class="button-click-detail go-away-hooroo">tell me less</div>
-
-        </div>
-
-      </div>
-
-      </div>
-
-    <div class="row">
-
-      <div class="img-node">
-
-        <img src="amex.jpg" class="img-responsive folio-fade amex-img">
-
-      </div>
-
-      <div class="text-node folio-fade amex-txt">
-
-        <h3>American Express</h3>
-
-        <h4>content strategist, writer @ dt</h4>
-
-        <p>I developed a suite of digital 'welcome packs' for American Express business credit cards.</p>
-
-        <div class="button-click amex-button">cool</div>
-
-      </div>
-
-      <div class="detail-node detail-amex">
-
-        <div class="detail-left">
-
-          <h3 class="detail-h">Overview</h3>
-
-          <p>'Welcome packs' are microsites that teach customers all about their newly activated cards.<br class="para" />AmEx asked us to design and write one for each of their small business products. The goal was to help customers make the most of their card, and provide a resource that's easily used again and again.</p>
-
-        </div>
-
-        <div class="detail-right">
-
-          <h3 class="detail-h">My role</h3>
-
-          <p>I started by talking to users to define the content we needed to make. We then built some wireframes and started creating, testing and designing content.</p>
-
-          <div class="button-click-detail go-away-amex">i see</div>
 
         </div>
 
@@ -620,6 +661,58 @@
             $('.amex-txt').removeClass("slideLeftOut").addClass("slideLeftin");
             $('.amex-img').removeClass("slideRightOut").addClass("slideRightin");
             $('.detail-amex').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+    <!-- SSGO Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.ssgo-button').click(function() {
+            $('.ssgo-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.ssgo-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-ssgo').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-ssgo').click(function() {
+            $('.ssgo-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.ssgo-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-ssgo').removeClass("fadeInFast").addClass("fadeOut");
+        });
+    });
+
+  </script>
+
+    <!-- Wink Folio Effects -->
+
+  <script>
+
+    $(document).ready(function(){
+        $('.wink-button').click(function() {
+            $('.wink-txt').removeClass("fadeIntop").removeClass("slideLeftin").addClass("slideLeftOut");
+            $('.wink-img').removeClass("fadeIntop").removeClass("slideRightin").addClass("slideRightOut");
+            $('.detail-wink').removeClass("fadeOut").addClass("fadeInFast");
+        });
+    });
+
+  </script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.go-away-wink').click(function() {
+            $('.wink-txt').removeClass("slideLeftOut").addClass("slideLeftin");
+            $('.wink-img').removeClass("slideRightOut").addClass("slideRightin");
+            $('.detail-wink').removeClass("fadeInFast").addClass("fadeOut");
         });
     });
 
